@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  font-family: "sora", sans-serif;
+  background-color: #fafaf9;
+}
+div {
+  display: flex; /* Se convierte en un contenedor flexible que nos sirve para facilitar el manejo de los elementos como el alineamiento, el espaciado y el orden de los elementos.*/
+  flex-direction: column; /* Esta propiedad se utiliza para especificar la dirección en la que se colocan los elementos secundarios dentro de un contenedor flexible. En este caso se colocarán en una columna en lugar de en una fila. */
+  padding: 16px 16px 20px 16px;
+  border-radius: 8px;
+  max-width: 400px;
+  position: absolute; /* Se utiliza para posicionar un elemento de forma absoluta con respecto a su primer ancestro posicionado o al elemento contenedor. */
+  left: 50%;
+  top: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Se utiliza para mover un elemento en el plano 2D (en el eje X y/o Y) o 3D (en los ejes X, Y y Z) sin alterar el flujo normal del documento. */
+  background-color: #ffffff;
+  box-shadow: 0px 1px 10px #e5eaf0;
+}
+div img {
+  width: 99%;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+div button {
+  margin-top: 6px;
+  background-color: #e6d6fc;
+  color: #883ae1;
+  border-radius: 25px;
+  border: 0px;
+  width: 80px;
+  height: 20px;
+  font-weight: bolder;
+}
+div p {
+  margin-top: 16px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #20293a;
+  margin-bottom: 6px;
+}
+div article {
+  color: #6c727f;
+  font-size: 0.875rem;
+  margin-bottom: 20px;
+}
+div footer p {
+  font-weight: 500;
+  color: #6c727f;
+  font-size: 0.875rem;
+  position: relative;
+  top: 20px;
+}
+div footer {
+  border-top: 1px solid #6c727f; /* Con este formamos la linea de la parte superior del footer. */
+}
